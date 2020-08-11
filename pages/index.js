@@ -7,7 +7,7 @@ export default function IndexPage() {
       <Link href="/about">
         <a>About</a>
       </Link>
-      <Link href="/work">
+      <Link href="/howiwork">
         <a>Work</a>
       </Link>
     </div>
