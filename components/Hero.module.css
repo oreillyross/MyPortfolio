@@ -1,6 +1,6 @@
 .hero {
   /* Photo by mnm.all on Unsplash */
-  background: url('../assets/background.jpg') center;
+  background: grey center;
   background-size: cover;
   padding: 4rem 2rem;
 
