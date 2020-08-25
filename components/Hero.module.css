@@ -1,0 +1,16 @@
+.hero {
+  /* Photo by mnm.all on Unsplash */
+  background: url('../assets/background.jpg') center;
+  background-size: cover;
+  padding: 4rem 2rem;
+
+  /* Grid styles */
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  color: white;
+}
+
+.hero > * {
+  border: 1px solid red;
+}
