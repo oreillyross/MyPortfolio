@@ -17,15 +17,23 @@ const StyledStrap = styled.h3`
     font-size: 2em;
   }
 `
-
+const StyledImage = styled.div`
+  img {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+  }
+  background-color: white;
+`
 
 export default function Hero() {
   return (
     <section className={styles.hero}>
-  <StyledName>Ross O'Reilly</StyledName>
+  <StyledName>Hi, I am Ross </StyledName>
   <article>
-    <StyledStrap>Full stack software developer</StyledStrap>
+    <StyledStrap>self taught frontend engineer building the latest apps in React</StyledStrap>
   </article>
+  <StyledImage><img width='400px' height='400px' src='img/undraw.svg'/></StyledImage>
 </section>
   )
 }
