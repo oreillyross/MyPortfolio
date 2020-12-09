@@ -6,10 +6,16 @@ import { size } from "../constants/sizes";
 
 const StyledName = styled.div`
   font-size: 1em;
+  @media (min-width: 400px) {
+    font-size: 2em;
+  }
  `
 const StyledStrap = styled.h3`
   color: #40A8C4;
-  font-size: 3em;
+  font-size: 1em;
+  @media (min-width: 400px) {
+    font-size: 2em;
+  }
 `
 
 
