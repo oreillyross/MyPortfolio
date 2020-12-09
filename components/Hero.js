@@ -1,12 +1,22 @@
 import styles from './Hero.module.css'
+import styled from 'styled-components'
+
+const StyledName = styled.h1`
+  color: black;
+  font-size: 5em;
+`
+const StyledStrap = styled.h3`
+  color: #40A8C4;
+  font-size: 3em;
+`
+
 
 export default function Hero() {
   return (
     <section className={styles.hero}>
-  <h1>Ross O'Reilly</h1>
+  <StyledName>Ross O'Reilly</StyledName>
   <article>
-    <p>Full stack software developer</p>
-    <span>Photo by <a href="https://unsplash.com/@halacious?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Halacious</a> on <a href="https://unsplash.com/s/photos/developer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+    <StyledStrap>Full stack software developer</StyledStrap>
   </article>
 </section>
   )

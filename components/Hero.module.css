@@ -1,16 +1,10 @@
 .hero {
   /* Photo by mnm.all on Unsplash */
-  background: grey center;
-  background-size: cover;
+  
+  background: #FFC93C;
+  height: 50vh;
   padding: 4rem 2rem;
-
-  /* Grid styles */
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  color: white;
+  color: #FFFFFF;
+  clip-path: polygon(77% 43%,0% 88%,0% 0%,90% 0%);
 }
 
-.hero > * {
-  border: 1px solid red;
-}
