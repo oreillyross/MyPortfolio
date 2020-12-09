@@ -1,9 +1,14 @@
 import Link from "next/link";
 import Hero from "../components/Hero";
+import Head from "next/head";
 
 export default function IndexPage() {
   return (
     <div>
+    <Head>
+      <title>Front End Engineer</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </Head>
     <Hero/>
       <Link href="/about">
         <a>About</a>

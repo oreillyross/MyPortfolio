@@ -1,10 +1,12 @@
 import styles from './Hero.module.css'
 import styled from 'styled-components'
+import { size } from "../constants/sizes";
 
-const StyledName = styled.h1`
-  color: black;
-  font-size: 5em;
-`
+
+
+const StyledName = styled.div`
+  font-size: 1em;
+ `
 const StyledStrap = styled.h3`
   color: #40A8C4;
   font-size: 3em;
