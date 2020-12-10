@@ -1,18 +1,10 @@
-import React from 'react';
-import styled from "styled-components";
 
-
-const StyledLinks = styled.div`
-  height:30px;
-  background-color: #4be3ac;
-
-`
 
 const LinksBar = () => {
     return (
-        <StyledLinks>
+        <section>
 About Projects Blog 
-        </StyledLinks>
+        </section>
     )
 }
 
