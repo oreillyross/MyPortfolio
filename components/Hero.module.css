@@ -1,12 +1,12 @@
 .hero {
   /* Photo by mnm.all on Unsplash */
   
-  background: #4be3ac;
+  background: yellow;
   height: 50vh;
   padding: 4rem 2rem;
-  color: #032d3c;
-  text-align: center;
-  border: 1px solid black;
+  color: #FFFFFF;
+  clip-path: polygon(77% 43%,0% 88%,0% 0%,90% 0%);
+
 
 }
 
