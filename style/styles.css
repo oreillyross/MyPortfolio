@@ -15,8 +15,9 @@ body {
 }
 
 .main {
+    color: blue;
     height: 1000px;
-    background-color: darkgreen;
+    background-color: white;
 }
 
 .hero-name {
