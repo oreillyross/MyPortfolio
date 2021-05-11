@@ -11,3 +11,6 @@ In 2013 I picked up programming again, mainly as a hobby and something to do in 
 quite sure where to start or what to specialise in. I took countless courses online ranging from Haskell, Scala, Microservices, Java, Javascript, Typescript courses 
 to name a few and landed on the following combination where I continue to finesse my skills: HTML5, CSS, ES6+, Typescript, and GraphQL. I am continually learning 
 and am now focused on learning Docker, and the Serverless landscape.
+
+Following the COVID pandemic, I like many thousands of others reflected on their lives and I decided that I wanted to work full time in the field of software development 
+again to be able to take advantage of the more fulfilling life as a coder, with freedom to work remotely, and freedom to be creative.
