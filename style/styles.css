@@ -1,46 +1,46 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    text-align: center;
+  text-align: center;
 }
 
 .hero {
-    height: 90vh;
-    background-color: #475944;
-    background-image: url('../public/img/Scattered.svg');
-    clip-path: polygon(50% 0%,100% 0%,82% 100%,18% 100%,0% 0%);
+  height: 90vh;
+  background-color: #475944;
+  /* background-image: url('../public/img/Scattered.svg'); */
+  clip-path: polygon(50% 0%, 100% 0%, 82% 100%, 18% 100%, 0% 0%);
 }
 
 .main {
-    color: blue;
-    height: 1000px;
-    background-color: white;
+  color: blue;
+  height: 1000px;
+  background-color: white;
 }
 
 .hero-name {
-    font-family: 'Lobster Two', Verdana, Geneva, Tahoma, sans-serif;
-    color: #032d3c;
-    font-size: 3em;
-    padding-top: 72px;
-    position: relative;
-    left: -300px;
+  font-family: "Lobster Two", Verdana, Geneva, Tahoma, sans-serif;
+  color: #032d3c;
+  font-size: 3em;
+  padding-top: 72px;
+  position: relative;
+  left: -300px;
 }
 
 .hero-strap {
-    padding-top: 24px;
-    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 24px;
+  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #chevron {
-    position: relative;
-    top: 100px;
-    text-align: center;
-    padding: 12px;
-    margin-bottom: 6px;
-    height: 60px;
-    width: 200px;
-    transform: rotate(90deg);
- }
+  position: relative;
+  top: 100px;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 60px;
+  width: 200px;
+  transform: rotate(90deg);
+}

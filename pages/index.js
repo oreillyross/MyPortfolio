@@ -1,19 +1,10 @@
-import Hero from "../components/Hero";
-import Main from '../components/Main'
-
-
-
-
-
 export default function IndexPage() {
-  
   return (
-    <div>
-
-    <Hero/>
-    <Main/>
-
-
-    </div>
+    <>
+      <header>
+        <nav>about | musings | open for hire | contact</nav>
+        Hi, My name is Ross
+      </header>
+    </>
   );
 }
