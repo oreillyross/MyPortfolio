@@ -1,8 +1,18 @@
 .hero {
   /* Photo by mnm.all on Unsplash */
-
+  
   background: yellow;
   height: 50vh;
   padding: 4rem 2rem;
-  color: #ffffff;
+  color: #FFFFFF;
+  clip-path: polygon(77% 43%,0% 88%,0% 0%,90% 0%);
+
+
 }
+
+
+
+
+
+
+
