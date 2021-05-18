@@ -1,9 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
+import { css } from "@emotion/css";
 
+const navStyle = css`
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0;
+  img:hover {
+    cursor: pointer;
+  }
+`;
 export const Navbar = () => {
   return (
-    <nav>
+    <nav className={navStyle}>
       <Link href="/">
         <Image src="/img/home.svg" height={20} width={20} />
       </Link>
