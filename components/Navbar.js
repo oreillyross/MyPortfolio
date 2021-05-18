@@ -18,7 +18,7 @@ export const Navbar = () => {
       </Link>
       <Link href="/mystory">about</Link> |<Link href="/mystory">musings</Link> |
       <Link href="/portfolio">portfolio</Link> |
-      <Link href="/mystory">open for hire</Link> |
+      <Link href="/howiwork">open for hire</Link> |
       <Link href="/mystory">contact </Link>
     </nav>
   );

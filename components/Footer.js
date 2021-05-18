@@ -2,8 +2,8 @@ import Link from "next/link";
 import { css } from "@emotion/css";
 
 const footer__main = css`
-  min-height: 20px;
-  background: grey;
+  min-height: 50px;
+  background: white;
 `;
 
 export const Footer = () => {
