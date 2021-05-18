@@ -2,7 +2,7 @@ export default function Credits() {
   return (
     <>
       <div>
-        Icons made by{" "}
+        The Home icon on the navbar was made by{" "}
         <a href="https://www.freepik.com" title="Freepik">
           Freepik
         </a>{" "}

@@ -1,4 +1,4 @@
-import MyStory from "./mystory.mdx";
+import MyStory from "./mystory";
 import Link from "next/link";
 
 export default function AboutPage() {
@@ -8,7 +8,9 @@ export default function AboutPage() {
         <nav>
           <Link href="/about">about</Link> | musings | open for hire | contact
         </nav>
-        <MyStory />
+        <div>
+          <MyStory />
+        </div>
       </header>
     </div>
   );

@@ -1,14 +1,10 @@
-import Link from "next/link";
+import Image from "next/image";
 
 export default function IndexPage() {
   return (
     <>
-      <header>
-        <nav>
-          <Link href="/mystory">about</Link> | musings | open for hire | contact
-        </nav>
-        Hi, My name is Ross
-      </header>
+      <article>Hi, My name is Ross</article>
+      <Image src="/img/freelancer.svg" width={300} height={480} />
     </>
   );
 }
