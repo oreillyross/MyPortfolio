@@ -5,7 +5,7 @@ const front_page = css`
   section {
     text-align: left;
     font-size: 1.5rem;
-    padding-left: 1rem;
+    padding: 1rem;
   }
   text-align: center;
   min-height: 80vh;
