@@ -14,12 +14,12 @@ export const Navbar = () => {
   return (
     <nav className={navStyle}>
       <Link href="/">
-        <Image src="/img/home.svg" height={20} width={20} />
+        <a>Home</a>
       </Link>
-      <Link href="/mystory">about</Link> |<Link href="/mystory">musings</Link> |
+      <Link href="/mystory">my story</Link> | 
       <Link href="/portfolio">portfolio</Link> |
       <Link href="/howiwork">open for hire</Link> |
-      <Link href="/mystory">contact </Link>
+      <Link href="/mystory">contact</Link>
     </nav>
   );
 };

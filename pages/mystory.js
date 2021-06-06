@@ -25,7 +25,7 @@ export default function MyStory() {
       <AboutHeader>
         <h3>My story</h3>
       </AboutHeader>
-      <div classname={imgStyle}>
+      <div className={imgStyle}>
         I began programming in the early _1990s_. <br />
         <br />
         <Image src="/img/back_in_the_day.svg" width={650} height={850} />
