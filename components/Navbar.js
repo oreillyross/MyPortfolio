@@ -9,6 +9,9 @@ const navStyle = css`
   img:hover {
     cursor: pointer;
   }
+  @media (max-width: 450px) {
+    display: none;
+  }
 `;
 export const Navbar = () => {
   return (
