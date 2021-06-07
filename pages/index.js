@@ -9,6 +9,11 @@ const front_page = css`
   }
   text-align: center;
   min-height: 80vh;
+  @media (max-width: 450px) {
+    img {
+      height: 250px;
+    }
+  }
 `;
 
 export default function IndexPage() {
