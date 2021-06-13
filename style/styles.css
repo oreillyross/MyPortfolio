@@ -1,4 +1,12 @@
-@import "hack.css";
+/* @import "hack.css"; */
+
+:root {
+  --richblack: #161925;
+  --cultured: #eff1ed;
+  --steelblue: #3581b8;
+  --popstar: #ce4760;
+  --yellowgreen: #98ce00;
+}
 
 * {
   margin: 0;
@@ -11,67 +19,80 @@ body {
   height: 100%;
   margin: 0%;
   font-family: "Ubuntu";
-  font-size: 1rem;
+  line-height: 1.4rem;
+  background-color: var(--cultured);
+  color: var(--richblack);
+}
+
+.front-page section aside h2 {
+  padding-left: 1.2rem;
+  position: relative;
+  top: 36px;
+  font-size: 2rem;
+}
+
+.front-page section h4 {
+  color: var(--cultured);
+  text-align: center;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  z-index: 100;
+}
+
+@media only screen and (min-width: 700px) {
+  .front-page section h4 {
+    font-size: 2.7rem;
+  }
+  .front-page section aside h2 {
+    font-size: 3.5rem;
+  }
+}
+
+.my-story p {
+  padding: 26px 12px;
+}
+
+.my-story {
+  background: url("../public/img/endless.svg")
+}
+
+.my-story h4 {
+  padding: 12px 26px;
+  margin-left: 26px;
+  background: var(--steelblue);
+  color: var(--cultured);
+  clip-path: polygon(97% 43%, 0% 88%, 0% 0%, 90% 0%);
+}
+
+h3 {
+  padding-left: 26px;
+  padding-bottom: 48px;
+  color: var(--popstar);
+  font-size: 1.4rem;
 }
 
 .hero {
-  height: 90vh;
-  background-color: #475944;
-  background-image: url("../public/img/Scattered.svg");
-  clip-path: polygon(50% 0%, 100% 0%, 82% 100%, 18% 100%, 0% 0%);
+  background: var(--yellowgreen);
+  height: 50vh;
+  padding: 4rem 2rem;
+  color: #ffffff;
+  clip-path: polygon(97% 43%, 0% 88%, 0% 0%, 90% 0%);
 }
 
-.main {
-  color: blue;
-  height: 1000px;
-  background-color: white;
+.front-page section img {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.hero-name {
-  font-family: "Lobster Two", Verdana, Geneva, Tahoma, sans-serif;
-  color: #032d3c;
-  font-size: 3em;
-  padding-top: 72px;
-  position: relative;
-  left: -300px;
+.contact {
+  padding: 26px 14px;
+  background: var(--popstar);
+
 }
 
-.hero-strap {
-  padding-top: 24px;
-  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#chevron {
-  position: relative;
-  top: 100px;
-  text-align: center;
-  padding: 12px;
-  margin-bottom: 6px;
-  height: 60px;
-  width: 200px;
-  transform: rotate(90deg);
-}
-
-section p {
-  text-align: justify;
-  padding: 0 1rem;
-  margin-top: 2rem;
-}
-
-section p:last-child {
-  background: red;
-}
-
-section aside {
-  padding-left: 5rem;
-}
-
-.mystory__footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background: green;
-  min-height: 50px;
-  color: white;
-  font-size: 1.2rem;
+.contact h3 {
+  color: var(--cultured)
 }
