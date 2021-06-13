@@ -13,7 +13,6 @@ export default function MyApp({ Component, pageProps }) {
     <div className={app}>
       <div className="wrapper">
         <div>
-          <Navbar />
         </div>
         <Component {...pageProps} />
       </div>

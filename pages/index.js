@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 import { css } from "@emotion/css";
 
 const front_page = css`
@@ -99,15 +99,36 @@ export default function IndexPage() {
           Rachel Andrews, both CSS experts.{" "}
         </p>
         <h4>reclaim</h4>
-        <p>And here we are, in 2021. I have a strong grasp of Typescript,
-        Javascript, NodeJS development using the React library, and all its
-        associated popular libraries such as React Router and the CSS-in-JS
-        libraries, Emotion, and Styled Components. 
+        <p>
+          And here we are, in 2021. I have a strong grasp of Typescript,
+          Javascript, NodeJS development using the React library, and all its
+          associated popular libraries such as React Router and the CSS-in-JS
+          libraries, Emotion, and Styled Components.
         </p>
       </article>
-      
+
       <article className="contact">
         <h3>Contact</h3>
+        <section>
+          <div><a
+            href="https://github.com/oreillyross"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github</a></div>
+          <div><a
+            href="https://stackoverflow.com/users/story/4109124"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            stackoverflow</a></div>
+          <div><a
+            href="mailto:oreillyross@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            email</a></div>
+        </section>
       </article>
     </div>
   );

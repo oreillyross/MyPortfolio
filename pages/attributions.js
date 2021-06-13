@@ -13,6 +13,7 @@ export default function Attributions() {
       <a href="https://www.flaticon.com/" title="Flaticon">
         www.flaticon.com
       </a>
+      I customized the wicked cool background on my homepage at SVGBackgrounds.com.
     </div>
   );
 }
