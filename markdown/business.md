@@ -1,5 +1,5 @@
 Faktor_10 is a specialized software consulting firm experienced in delivering high quality machine learning 
-solutions across a range of idustries including the aerospace, food and technology, transport and health care sectors.
+solutions across a range of industries including the military, aerospace, food and technology, transport and health care sectors.
 
 Faktor_10 employs the latest machine learning models and best of breed technology stacks to help deliver bespoke solutions to common problems.
 
