@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function Some() {
+function SomeFile() {
   return (
     <div>
       This page is all about how I generally work. And is aimed for hiring
@@ -21,4 +21,4 @@ function Some() {
   );
 }
 
-export default Some;
+export default SomeFile;
