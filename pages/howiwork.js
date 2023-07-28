@@ -11,6 +11,12 @@ function Some() {
           GitHub Flow principles
         </Link>
       </p>
+      <div>If I am doing some sort of exploration work in Python I will generally fire up a replit session. 
+        Especially if I need to share my code and proof of concept with other coders.
+        Replit has a fantastic generative AI feature called Ghostwriter which helps many times in exploring ideas
+        and getting inspiration from its suggestions. 
+        My repls can all be found here <a href="https://replit.com/@oreillyross">@oreillyross replit</a>
+        </div>
     </div>
   );
 }
