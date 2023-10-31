@@ -14,6 +14,7 @@ export default function Page() {
             <div>Your bedtime self will thank you, your morning-self will thank you, your fit self will thank you</div>
         </p>
         </div>
+          <h3>Divinty over nature, explore the limits of your being</h3>
         </>
     )
 }
