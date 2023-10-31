@@ -2,7 +2,7 @@ export default function Page() {
     return (
       <div> Don't think. Just execute the plan. The plan is the alarm clock goes off, you get up, you go work out. Get some</div>  
         <div>
-            <h3>Read this everytime after 2-3 drinks</h3>
+            <h2>Read this everytime after 2-3 drinks</h2>
         <p>
         Its not Really You. Its the alochol monster.
         You are stronger than the voice. It will quickly weaken when you recognize it for what it is and put some distance between you and it.
