@@ -11,6 +11,7 @@ export default function Page() {
         It's very noisy, I get that. But its bark is worse than its bite. It has no actual 
         power over you. It's that little child in the backseat of the car who is desperate for an 
         ice cream. She's not going to give in easily. BUT ultimately you're IN-CHARGE. 
+            <div>Your bedtime self will thank you, your morning-self will thank you, your fit self will thank you</div>
         </p>
         </div>
         </>
