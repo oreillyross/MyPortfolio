@@ -8,6 +8,7 @@
   --yellowgreen: #98ce00;
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -120,4 +121,18 @@ h3 {
   font-size: 1.3rem;
   color: var(--cultured);
   text-decoration: none;
+}
+
+.up {
+  padding: 2em;
+}
+
+.drink {
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.drink h2 {
+  padding-bottom: 1rem;
 }

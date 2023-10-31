@@ -1,7 +1,8 @@
 export default function Page() {
     return (
-      <div> Don't think. Just execute the plan. The plan is the alarm clock goes off, you get up, you go work out. Get some</div>  
-        <div>
+      <>
+      <div className="up"> Don't think. Just execute the plan. The plan is the alarm clock goes off, you get up, you go work out. Get some</div>  
+        <div className="drink">
             <h2>Read this everytime after 2-3 drinks</h2>
         <p>
         Its not Really You. Its the alochol monster.
@@ -12,5 +13,6 @@ export default function Page() {
         ice cream. She's not going to give in easily. BUT ultimately you're IN-CHARGE. 
         </p>
         </div>
+        </>
     )
 }
