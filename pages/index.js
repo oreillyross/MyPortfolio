@@ -21,7 +21,7 @@ export default function IndexPage() {
     <div className="front-page">
       <section>
         <aside>
-          <h2>Hi, my name is Ross</h2>
+          <h2>Hi, </h2>
         </aside>
         <img
           src="./img/freelancer.svg"
