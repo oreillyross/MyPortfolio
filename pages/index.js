@@ -116,7 +116,10 @@ export default function IndexPage() {
             rel="noopener noreferrer"
           >
             github</a></div>
-          <div><a
+          <div>
+              <a href="https://leetcode.com/oreillyross/" target="_blank" rel="noopener noreferrer">My Leetcode adventures</a>
+              </div>
+              <div><a
             href="https://stackoverflow.com/users/story/4109124"
             target="_blank"
             rel="noopener noreferrer"
