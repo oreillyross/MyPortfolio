@@ -1,23 +1,4 @@
 import Image from "next/image";
-import { css } from "@emotion/react";
-import styled from "@emotion/styled";
-
-const imgStyle = css`
-  background: red;
-  img {
-    border: 1px solid black;
-  }
-`;
-
-const aboutHeader = css`
-  color: red;
-  border: 1px solid black;
-  background: tomato;
-`;
-
-const AboutHeader = styled.div`
-  ${aboutHeader}
-`;
 
 export default function MyStory() {
   return (

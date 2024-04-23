@@ -1,22 +1,4 @@
-import Link from "next/link";
-import { css } from "@emotion/css";
-
-const front_page = css`
-  section {
-    text-align: left;
-    font-size: 1.5rem;
-    padding: 1rem;
-  }
-  text-align: center;
-  min-height: 80vh;
-  @media (max-width: 450px) {
-    img {
-      height: 250px;
-    }
-  }
-`;
-
-export default function IndexPage() {
+export default function Page() {
   return (
     <div className="front-page">
       <section>

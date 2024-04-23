@@ -1,18 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
-import { css } from "@emotion/css";
 
-const navStyle = css`
-  display: flex;
-  justify-content: space-around;
-  padding: 2rem 0;
-  img:hover {
-    cursor: pointer;
-  }
-  @media (max-width: 450px) {
-    display: none;
-  }
-`;
 export const Navbar = () => {
   return (
     <nav className={navStyle}>

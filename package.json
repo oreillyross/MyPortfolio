@@ -7,22 +7,21 @@
     "start": "next start"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20"
   },
   "dependencies": {
-    "@mdx-js/loader": "^1.5.1",
-    "@mdx-js/react": "^1.6.18",
-    "@next/mdx": "^9.1.1",
-    "gray-matter": "^4.0.3",
     "next": "^14.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "remark": "^13.0.0",
-    "remark-html": "^13.0.1"
+    "react-dom": "^18.2.0"
   },
   "license": "ISC",
   "keywords": [
     "portfolio"
   ],
-  "description": "This is the site dedicated to everything about me as a web developer to be used for recruiters, or companies to know more about me."
+  "description": "This is the site dedicated to everything about me as a web developer to be used for recruiters, or companies to know more about me.",
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.2.79",
+    "typescript": "5.4.5"
+  }
 }
