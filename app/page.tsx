@@ -1,3 +1,5 @@
+import { Navbar } from "../components/Navbar";
+
 export default function Home() {
   return (
     <>
@@ -21,10 +23,8 @@ export default function Home() {
           TypeScript/Javascript, Python and more recently Golang.
           <pre className="mt-2 p-2">I am a recovering Java developer</pre>
         </div>
-        <div>
-          See my Journey<> </>
-          <button>Here...</button>
-        </div>
+      
+        <Navbar />
       </main>
     </>
   );
