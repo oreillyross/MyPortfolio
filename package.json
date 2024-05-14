@@ -15,7 +15,8 @@
     "@next/mdx": "^14.2.3",
     "next": "^14.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "remark-loader": "^6.0.0"
   },
   "license": "ISC",
   "keywords": [
@@ -23,9 +24,9 @@
   ],
   "description": "This is the site dedicated to everything about me as a web developer to be used for recruiters, or companies to know more about me.",
   "devDependencies": {
+    "@types/mdx": "2.0.13",
     "@types/node": "20.12.7",
     "@types/react": "18.2.79",
-    "@types/mdx": "2.0.13",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",

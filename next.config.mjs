@@ -13,3 +13,7 @@ const withMDX = createMDX({
 
 // Merge MDX config with Next.js config
 export default withMDX(nextConfig)
+
+// next.config.js
+
+// next.config.js
