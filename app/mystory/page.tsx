@@ -2,6 +2,8 @@ export default function MyStory() {
   return (
     <div>
       <h1> My Journey</h1>
+      <p className="outline">This is one para</p>
+      <p className="outline">This is another para</p>
       <p>
         Describe here your journey to how you got to where you are now, include
         the programming from 1990s, borrowing your uncles Borland C++ manuals,
