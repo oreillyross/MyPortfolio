@@ -1,0 +1,1 @@
+“At Faktor_10, we build fast and iterate through tight learning loops to craft AI-powered products that solve real problems and are loved by paying customers.”
